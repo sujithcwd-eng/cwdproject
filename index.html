@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CWD | Project Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="image/Favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="section-one">
+        <div class="container">
+
+
+            <header class="header">
+                <div class="header-logo">
+                    <a href="#"><img src="image/logo.webp" alt="Logo"></a>
+                </div>
+
+                <nav class="header-link desktop-view">
+                    <div class="tabs">
+                        <div class="tab active" data-filter="all"><i class="fa-solid fa-layer-group"></i> All</div>
+                        <div class="tab" data-filter="website"><i class="fa-solid fa-globe"></i> Website</div>
+                        <div class="tab" data-filter="webapp"><i class="fa-solid fa-code"></i> Web App</div>
+                        <div class="tab" data-filter="mobile"><i class="fa-solid fa-mobile-screen-button"></i> Mobile
+                            App</div>
+                    </div>
+                </nav>
+
+                <div class="header-link mobile-view">
+                    <img src="image/bar.webp" class="menu-toggle" alt="Menu">
+                </div>
+            </header>
+
+            <aside class="mobile-sidebar" id="mobileSidebar">
+                <div class="sidebar-header">
+                    <span class="close-btn" id="closeSidebar">&times;</span>
+                </div>
+
+                <div class="tabs mobile-tabs">
+                    <div class="tab active" data-filter="all"><i class="fa-solid fa-layer-group"></i> All</div>
+                    <div class="tab" data-filter="website"><i class="fa-solid fa-globe"></i> Website</div>
+                    <div class="tab" data-filter="webapp"><i class="fa-solid fa-code"></i> Web App</div>
+                    <div class="tab" data-filter="mobile"><i class="fa-solid fa-mobile-screen-button"></i> Mobile App
+                    </div>
+                </div>
+            </aside>
+
+            <div class="sidebar-overlay" id="sidebarOverlay"></div>
+            <section class="gallery">
+                <!-- Website Items -->
+                <div class="item website"><img src="image/b3_studioz.webp" alt="">
+                    <div class="overlay" data-link="https://b3studioz.com/">
+                        <div class="image-icon"><a href="https://b3studioz.com/" target="_blank"><img
+                                    src="image/b3studio-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://b3studioz.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/santhoore_bg.webp" alt="">
+                    <div class="overlay" data-link="https://sindhooramholidayhome.com/">
+                        <div class="image-icon"><a href="https://sindhooramholidayhome.com/" target="_blank"><img
+                                    src="image/sindhooram-resort -logo.webp" class="image-icon-img"></a></div><a
+                            href="https://sindhooramholidayhome.com/" target="_blank"><img
+                                src="image/website01-logo.png" style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/Chai.webp" alt="">
+                    <div class="overlay" data-link="https://chennaiwebsitedeveloper.com/chailoka/">
+                        <div class="image-icon"><a href="https://chennaiwebsitedeveloper.com/chailoka/"
+                                target="_blank"><img src="image/Chai-logo.png" class="image-icon-img"></a>
+                        </div><a href="https://peransainfotech.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/singh_indian_kitchen-image-bg03_optimized.webp" alt="">
+                    <div class="overlay" data-link="https://singhsindiankitchen.co.uk/">
+                        <div class="image-icon"><a href="https://singhsindiankitchen.co.uk/" target="_blank"><img
+                                    src="image/singh_indian_kitchen-logo01 (1).png" class="image-icon-img"></a></div><a
+                            href="https://singhsindiankitchen.co.uk/" target="_blank"><img
+                                src="image/website01-logo.png" style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+
+                <!-- Website Items -->
+                <div class="item website"><img src="image/peransaimg.webp" alt="">
+                    <div class="overlay" data-link="https://peransainfotech.com/">
+                        <div class="image-icon"><a href="https://peransainfotech.com/" target="_blank"><img
+                                    src="image/peransa_infotech-logo.webp" class="image-icon-img"></a></div>
+                        <a href="https://peransainfotech.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/sap-engineers-image-bg_optimized.webp" alt="">
+                    <div class="overlay" data-link="https://sapengineers.org/">
+                        <div class="image-icon"><a href="https://sapengineers.org/" target="_blank"><img
+                                    src="image/sap-engineers-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://sapengineers.org/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/tcm-matrimony-favicon-image-bg01_optimized.webp" alt="">
+                    <div class="overlay" data-link="https://tcmmatrimony.com/">
+                        <div class="image-icon"><a href="https://tcmmatrimony.com/" target="_blank"><img
+                                    src="image/tcm-matrimony- logo.webp" class="image-icon-img"></a></div><a
+                            href="https://tcmmatrimony.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/print_cafe-new.webp" alt="">
+                    <div class="overlay" data-link="https://printcafe.uk/">
+                        <div class="image-icon"><a href="https://printcafe.uk/" target="_blank"><img
+                                    src="image/Printcafe-Logo.webp" class="image-icon-img"></a></div><a
+                            href="https://printcafe.uk/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/nr-cabs02.webp" alt="">
+                    <div class="overlay" data-link="https://nrcabs.com/">
+                        <div class="image-icon"><a href="https://nrcabs.com/" target="_blank"><img
+                                    src="image/nr-cabs-logo01 (2).webp" class="image-icon-img"></a></div><a
+                            href="https://nrcabs.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/honeyscene (1).webp" alt="">
+                    <div class="overlay" data-link="https://honeysceneltd.com/">
+                        <div class="image-icon"><a href="https://honeysceneltd.com/" target="_blank"><img
+                                    src="image/HoneyScenelogo.webp" class="image-icon-img"></a></div><a
+                            href="https://honeysceneltd.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/valueguru.webp" alt="">
+                    <div class="overlay" data-link="https://www.valueguru.org/">
+                        <div class="image-icon"><a href="https://www.valueguru.org/" target="_blank"><img
+                                    src="image/valuegurulogo.webp" class="image-icon-img"></a></div><a
+                            href="https://www.valueguru.org/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+
+
+
+                <!-- Website Items -->
+                <div class="item website"><img src="image/sewbajar-image-bg.webp" alt="">
+                    <div class="overlay" data-link="https://sewbajar.in/">
+                        <div class="image-icon"><a href="https://sewbajar.in/" target="_blank"><img
+                                    src="image/sewbajar-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://sewbajar.in/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <!-- <div class="item webapp"><img src="image/farmwayimg-bg.webp" alt="">
+                    <div class="overlay" data-link="h">
+                        <div class="image-icon"><a href="#" target="_blank"><img src="image/farm-logo.svg"
+                                    class="image-icon-img"></a></div><a href="#" target="_blank"><img
+                                src="image/website01-logo.png" style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div> -->
+                <!-- Website Items -->
+                <div class="item mobile"><img src="image/townbuzimg-app.webp" alt="">
+                    <div class="overlay"
+                        data-link="https://play.google.com/store/apps/details?id=com.townbuztech.townbuz">
+                        <div class="image-icon"><a
+                                href="https://play.google.com/store/apps/details?id=com.townbuztech.townbuz"><img
+                                    src="image/townbuz-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://play.google.com/store/apps/details?id=com.townbuztech.townbuz"><img
+                                src="image/website01-logo.png" style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/boujiee-ballon-image-bg01.webp" alt="">
+                    <div class="overlay" data-link="https://boujieeballoons.co.uk/">
+                        <div class="image-icon"><a href="https://boujieeballoons.co.uk/" target="_blank"><img
+                                    src="image/boujiee-ballon-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://boujieeballoons.co.uk/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/doranax_furniture-image-bg01.webp" alt="">
+                    <div class="overlay" data-link="https://doranaxfurniture.co.uk/">
+                        <div class="image-icon"><a href="https://doranaxfurniture.co.uk/" target="_blank"><img
+                                    src="image/doranax-furniture-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://doranaxfurniture.co.uk/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+
+
+                <!-- Website Items -->
+                <div class="item website"><img src="image/muthra_industries_bg.webp" alt="">
+                    <div class="overlay" data-link="https://muthraindustries.com/">
+                        <div class="image-icon"><a href="https://muthraindustries.com/" target="_blank"><img
+                                    src="image/mithra_indutries-logo.webp" class="image-icon-img"></a></div>
+                        <a href="https://muthraindustries.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/Fluoro Automotive Plast.webp" alt="">
+                    <div class="overlay" data-link="https://fluoroapl.com/">
+                        <div class="image-icon"><a href="https://fluoroapl.com/" target="_blank"><img
+                                    src="image/fluoropal-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://fluoroapl.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/sai-sakthi-crop.webp" alt="">
+                    <div class="overlay" data-link="https://saisakthigasket.in/">
+                        <div class="image-icon"><a href="https://saisakthigasket.in/" target="_blank"><img
+                                    src="image/sai_sakthi-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://saisakthigasket.in/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/levva.webp" alt="">
+                    <div class="overlay" data-link="http://levvanautomation.com/">
+                        <div class="image-icon"><a href="http://levvanautomation.com/" target="_blank"><img
+                                    src="image/levvan-auto-logo.webp" class="image-icon-img"></a></div><a
+                            href="http://levvanautomation.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/bros-engineering-image.webp" alt="">
+                    <div class="overlay" data-link="https://brosengineering.com/">
+                        <div class="image-icon"><a href="https://brosengineering.com/" target="_blank"><img
+                                    src="image/bros-engineering-logo.webp" class="image-icon-img"></a></div>
+                        <a href="https://brosengineering.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/ayyapansingarasu-bg.webp" alt="">
+                    <div class="overlay" data-link="https://ayyappansingarasu.org/">
+                        <div class="image-icon"><a href="https://ayyappansingarasu.org/" target="_blank"><img
+                                    src="image/ayyapansingarasu-logo01.webp" class="image-icon-img"></a></div><a
+                            href="https://ayyappansingarasu.org/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/vyasa.webp" alt="">
+                    <div class="overlay" data-link="https://gurumaharishi.com/">
+                        <div class="image-icon"><a href="https://gurumaharishi.com/" target="_blank"><img
+                                    src="image/guru_maharishi-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://gurumaharishi.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/guru_mantra_bg.webp" alt="">
+                    <div class="overlay" data-link="https://gurumantra4u.com/">
+                        <div class="image-icon"><a href="https://gurumantra4u.com/" target="_blank"><img
+                                    src="image/guru_mantra4u-logo01.webp" class="image-icon-img"></a></div>
+                        <a href="https://gurumantra4u.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+
+
+                <!-- Website Items -->
+                <div class="item website"><img src="image/idias.webp" alt="">
+                    <div class="overlay" data-link="https://idias.in/">
+                        <div class="image-icon"><a href="https://idias.in/" target="_blank"><img
+                                    src="image/idias-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://idias.in/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/valar_tech.webp" alt="">
+                    <div class="overlay" data-link="https://valartech.co.in/">
+                        <div class="image-icon"><a href="https://valartech.co.in/" target="_blank"><img
+                                    src="image/valar_tech-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://valartech.co.in/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website">
+                    <img src="image/crocus_builders.webp" alt="">
+                    <div class="overlay" data-link="https://crocusbuilders.com/">
+                        <div class="image-icon">
+                            <a href="https://crocusbuilders.com/" target="_blank">
+                                <img src="image/crocus_builders-logo.webp" class="image-icon-img"></a>
+                        </div>
+                        <a href="https://crocusbuilders.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/bustle_kidz-bg.webp" alt="">
+                    <div class="overlay" data-link="https://bustlekidz.com/">
+                        <div class="image-icon"><a href="https://bustlekidz.com/" target="_blank"><img
+                                    src="image/bustle_kidz-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://bustlekidz.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+                <!-- Website Items -->
+                <div class="item website"><img src="image/sanleva-image-bg.webp" alt="">
+                    <div class="overlay" data-link="https://sanleva.com/">
+                        <div class="image-icon"><a href="https://sanleva.com/" target="_blank"><img
+                                    src="image/sanleva-logo.webp" class="image-icon-img"></a></div><a
+                            href="https://sanleva.com/" target="_blank"><img src="image/website01-logo.png"
+                                style="width: 20px;height: 20px;"></a>
+                    </div>
+                </div>
+
+                <!-- Repeat same pattern for all items -->
+            </section>
+
+            <footer class="footer">
+                <p><a href="#">CWD</a> © 2026 All Rights Reserved</p>
+            </footer>
+
+
+            <script src="main.js"></script>
+</body>
+
+</html>
