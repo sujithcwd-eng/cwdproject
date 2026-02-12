@@ -1,28 +1,33 @@
 * {
   box-sizing: border-box;
 }
+
 html, body {
   height: 100%;
   margin: 0;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-}
 
+body {
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body takes full screen height */
+  margin: 0;
+  font-family: 'roboto';
+
+  
+}
 .section-one {
   max-width: 100%;
   padding: 0px 20px;
   flex: 1;
 }
 .footer {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
   text-align: center;
   font-size: 14px;
   color: #0e8fd2;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .footer a {
@@ -72,12 +77,13 @@ body {
 
 .tab {
   border: 1px solid #2d8cff;
-  padding: 10px 22px;
-  border-radius: 30px;
-  cursor: pointer;
-  font-family: Raleway;
-  font-weight: 600;
-  transition: 0.3s;
+    padding: 10px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Raleway;
+    font-weight: 600;
+    transition: 0.3s;
+  
 }
 
 .tab:hover,
@@ -90,7 +96,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 12px;
-  padding:20px 0px;
+  padding: 20px 0px;
 }
 
 .item {
@@ -138,7 +144,7 @@ body {
   position: fixed;
   top: 0;
   right: -280px;
-  width: 260px;
+  width: 170px;
   height: 100vh;
   background: #fff;
   padding: 20px;
@@ -154,6 +160,7 @@ body {
 .sidebar-header {
   display: flex;
   justify-content: flex-end;
+   
 }
 
 .close-btn {
@@ -179,6 +186,21 @@ body {
   .gallery {
     grid-template-columns: repeat(4,1fr);
   }
+  .sidebar-header {
+  display: flex;
+  justify-content: flex-end;
+   margin: 0px 0px 10px;
+}
+.tab {
+  border: 1px solid #2d8cff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Raleway;
+    font-weight: 600;
+    transition: 0.3s;
+    width: 132px;
+}
 
   .tabs {
     display: flex;
@@ -299,4 +321,3 @@ body {
         cursor: pointer;
     }
 }
-
