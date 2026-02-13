@@ -186,6 +186,11 @@ body {
   .gallery {
     grid-template-columns: repeat(4,1fr);
   }
+  .section-one {
+  max-width: 100%;
+  padding: 0px 20px;
+  flex: 1;
+}
   .sidebar-header {
   display: flex;
   justify-content: flex-end;
