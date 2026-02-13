@@ -18,7 +18,7 @@ body {
 }
 .section-one {
   max-width: 100%;
-  padding: 0px 20px 0px 55px;
+  padding: 0px 55px 0px 55px;
   flex: 1;
 }
 .footer {
@@ -326,3 +326,4 @@ body {
         cursor: pointer;
     }
 }
+
