@@ -188,7 +188,7 @@ body {
   }
   .section-one {
   max-width: 100%;
-  padding: 0px 20px;
+  padding: 0px 20px!important;
   flex: 1;
 }
   .sidebar-header {
